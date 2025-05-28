@@ -1,33 +1,18 @@
 
-# QuCreate Streamlit Lab
+# FRN Duration Visualizer
 
-This repository contains a Streamlit application for demonstrating the features and capabilities of the QuCreate platform.
+This Streamlit application calculates and visualizes the Macaulay Duration of a Floating Rate Note (FRN).
 
-## Features
-- Streamlit sidebar with a company logo.
-- Template for easy development.
-- Placeholder for adding custom code.
+## How to Use
 
-## Getting Started
+1.  Clone the repository.
+2.  Install the required packages using `pip install -r requirements.txt`.
+3.  Run the application using `streamlit run app.py`.
 
-### Prerequisites
-- Python 3.8 or later
-- Streamlit installed (see `requirements.txt`).
+## Docker
 
-### Installation
-1. Clone the repository
-2. Install dependencies:
-`pip install -r requirements.txt`
+To build and run the application using Docker:
 
-### Running the Application
-1. Run the Streamlit app:
+1.  Build the image: `docker build -t frn-duration .`
+2.  Run the container: `docker run -p 8501:8501 frn-duration`
 
-### Development
-1. Modify the `app.py` file to add your custom code.
-2. Use the placeholder section (`# Code goes here`) to add new functionality.
-
-### Deployment
-- Deploy your Streamlit app using Streamlit Sharing, Docker, or any other platform supporting Python web applications.
-
-## License
-© 2025 QuantUniversity. All Rights Reserved. Educational use only. For licensing details, please contact QuantUniversity.
